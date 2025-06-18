@@ -23,30 +23,28 @@
 
                         <div class="iconesInicio">
 
-                            <a href="">Pacotes</a>
-                        </div>
-
-                        <div class="iconesInicio">
-
-                            <a href="">Informação</a>
-                        </div>
-
-                        <div class="iconesInicio">
-
+                            <a href="#Pacotes">Pacotes</a>
+                            <a href="#sobre">Informação</a>
                             <a href="">Viagens</a>
-                        </div>
-
-                        <div>
                             <a href="">Hoteis</a>
+
                         </div>
                     </nav>
 
+                    <button onclick="abrefechamenu()">
+                        <svg id="iconebarras" xmlns="http://www.w3.org/2000/svg"
+                            viewBox="0 0 448 512"><!--!Font Awesome Free 6.5.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.-->
+                            <path
+                                d="M0 96C0 78.3 14.3 64 32 64H416c17.7 0 32 14.3 32 32s-14.3 32-32 32H32C14.3 128 0 113.7 0 96zM0 256c0-17.7 14.3-32 32-32H416c17.7 0 32 14.3 32 32s-14.3 32-32 32H32c-17.7 0-32-14.3-32-32zM448 416c0 17.7-14.3 32-32 32H32c-17.7 0-32-14.3-32-32s14.3-32 32-32H416c17.7 0 32 14.3 32 32z" />
+                        </svg>
 
+                        <svg id="iconeX" xmlns="http://www.w3.org/2000/svg"
+                            viewBox="0 0 384 512"><!--!Font Awesome Free 6.5.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.-->
+                            <path
+                                d="M342.6 150.6c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0L192 210.7 86.6 105.4c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3L146.7 256 41.4 361.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0L192 301.3 297.4 406.6c12.5 12.5 32.8 12.5 45.3 0s12.5-32.8 0-45.3L237.3 256 342.6 150.6z" />
+                        </svg>
 
-
-
-
-
+                    </button>
 
                 </div>
             </header>
@@ -79,64 +77,64 @@
 
 
             <head>
-                <meta charset="UTF-8" />
+                <meta charset="" />
                 <title>Cards de Viagem</title>
                 <link rel="stylesheet" href="styles.css" />
             </head>
+            <div class="ofertas espaco-laterais">
+                <h2 id="Pacotes">Pacotes</h2>
+                <div class="cards-container">
+                    <div class="card">
+                        <img src="./img/img 1 pacotes.png" alt="Canadá">
+                        <div class="card-text">
+                            <h3>Viagem para CANADÁ</h3>
+                            <p>com o melhor preços</p>
+                            <span>ATÉ 12x sem juros</span>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <img src="./img/image 4 portu.png" alt="Portugal">
+                        <div class="card-text">
+                            <h3>Viagem para PORTUGAL</h3>
+                            <p>com o menor preço</p>
+                            <span>ATÉ 12x sem juros</span>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <img src="./img/praia.png" alt="Praia">
+                        <div class="card-text">
+                            <h3>Viagem para PRAIA</h3>
+                            <p>com o melhor preço</p>
+                            <span>ATÉ 12x sem juros</span>
+                        </div>
+                    </div>
+                </div>
 
-
-            <h2>Pacotes</h2>
-            <div class="cards-container">
-                <div class="card">
-                    <img src="./img/img 1 pacotes.png" alt="Canadá">
-                    <div class="card-text">
-                        <h3>Viagem para CANADÁ</h3>
-                        <p>com o melhor preços</p>
-                        <span>ATÉ 12x sem juros</span>
+                <h2>Hotéis</h2>
+                <div class="cards-container">
+                    <div class="card">
+                        <img src="./img/image 3.png" alt="Fernando de Noronha">
+                        <div class="card-text">
+                            <h3>Fernando de Noronha</h3>
+                            <p>3.743 Hotéis</p>
+                            <span>R$ 353 Em Média</span>
+                        </div>
                     </div>
-                </div>
-                <div class="card">
-                    <img src="./img/image 4 portu.png" alt="Portugal">
-                    <div class="card-text">
-                        <h3>Viagem para PORTUGAL</h3>
-                        <p>com o menor preço</p>
-                        <span>ATÉ 12x sem juros</span>
+                    <div class="card">
+                        <img src="./img/foto portugal predio.jpg" alt="Portugal">
+                        <div class="card-text">
+                            <h3>Portugal</h3>
+                            <p>1.007 Hotéis</p>
+                            <span>R$ 632 Em Média</span>
+                        </div>
                     </div>
-                </div>
-                <div class="card">
-                    <img src="./img/praia.png" alt="Praia">
-                    <div class="card-text">
-                        <h3>Viagem para PRAIA</h3>
-                        <p>com o melhor preço</p>
-                        <span>ATÉ 12x sem juros</span>
-                    </div>
-                </div>
-            </div>
-
-            <h2>Hotéis</h2>
-            <div class="cards-container">
-                <div class="card">
-                    <img src="./img/image 3.png" alt="Fernando de Noronha">
-                    <div class="card-text">
-                        <h3>Fernando de Noronha</h3>
-                        <p>3.743 Hotéis</p>
-                        <span>R$ 353 Em Média</span>
-                    </div>
-                </div>
-                <div class="card">
-                    <img src="./img/foto portugal predio.jpg" alt="Portugal">
-                    <div class="card-text">
-                        <h3>Portugal</h3>
-                        <p>1.007 Hotéis</p>
-                        <span>R$ 632 Em Média</span>
-                    </div>
-                </div>
-                <div class="card">
-                    <img src="./img/foto rio nova.webp" alt="Rio de Janeiro">
-                    <div class="card-text">
-                        <h3>Rio de Janeiro</h3>
-                        <p>4.455 Hotéis</p>
-                        <span>R$ 465 Em Média</span>
+                    <div class="card">
+                        <img src="./img/foto rio nova.webp" alt="Rio de Janeiro">
+                        <div class="card-text">
+                            <h3>Rio de Janeiro</h3>
+                            <p>4.455 Hotéis</p>
+                            <span>R$ 465 Em Média</span>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -144,7 +142,7 @@
             <section class="newsletter" aria-label="Formulário ">
                 <h3>Cadastre-se AQUI 👇🏻</h3>
                 <form action="#" method="post" class="newsletter-form" novalidate>
-                    <label for="name">E-mail:  </label>
+                    <label for="name">E-mail: </label>
                     <input type="text" id="name" name="name" required aria-required="" placeholder="Seu e-mail " />
                     <label for="email">Senha: </label>
                     <input type="email" id="email" name="email" required aria-required=""
@@ -162,22 +160,26 @@
 
 
                 <footer class="footer">
-                    <div class="footer-logo">
-                        <img src="./img/logo (2).svg" alt="Greenway Logo">
+                    <div class="espaco-laterais footer2">
 
-                    </div>
-                    <div class="footer-social">
-                        <div class="social-item">
-                            <i class="fab fa-instagram"></i>
-                            <span>Greenway.Turismo</span>
+
+                        <div class="footer-logo">
+                            <img src="./img/logo (2).svg" alt="Greenway Logo">
+
                         </div>
-                        <div class="social-item">
-                            <i class="fab fa-tiktok"></i>
-                            <span>Greenway.Turismo</span>
-                        </div>
-                        <div class="social-item">
-                            <i class="fas fa-envelope"></i>
-                            <span>Greenway.Turismo@gmail.com</span>
+                        <div class="footer-social">
+                            <div class="social-item">
+                                <i class="fab fa-instagram"></i>
+                                <span>Greenway.Turismo</span>
+                            </div>
+                            <div class="social-item">
+                                <i class="fab fa-tiktok"></i>
+                                <span>Greenway.Turismo</span>
+                            </div>
+                            <div class="social-item">
+                                <i class="fas fa-envelope"></i>
+                                <span>Greenway.Turismo@gmail.com</span>
+                            </div>
                         </div>
                     </div>
                 </footer>
